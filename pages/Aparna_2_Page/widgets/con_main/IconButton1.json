@@ -1,56 +1,66 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "none",
-    "mobileBottomRow": 41,
-    "widgetName": "IconButton1",
-    "onClick": "{{copyToClipboard(Input1.text);\nshowAlert('Copied', 'success');}}",
-    "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "displayName": "Icon button",
-    "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
-    "searchTags": [
-        "click",
-        "submit"
-    ],
-    "topRow": 38,
-    "bottomRow": 42,
-    "parentRowSpace": 10,
-    "type": "ICON_BUTTON_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 64,
-    "animateLoading": true,
-    "parentColumnSpace": 5.3955078125,
-    "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 57,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "buttonColor"}
-    ],
-    "isDisabled": false,
-    "key": "zbngn841er",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
-    "iconName": "duplicate",
-    "widgetId": "5nhr328vg5",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 42,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "buttonVariant": "TERTIARY",
+  "displayName": "Icon button",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "minWidth": 50,
-    "isVisible": true,
-    "version": 1,
-    "parentId": "953y54ijag",
-    "tags": ["Buttons"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 37,
-    "responsiveBehavior": "hug",
-    "originalTopRow": 36,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 62,
-    "originalBottomRow": 40,
-    "buttonVariant": "TERTIARY"
+    {
+      "key": "buttonColor"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "hideCard": false,
+  "iconName": "duplicate",
+  "iconSVG": "/static/media/icon.bb5d55ae67fb1687dff78e66ad1faec0.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "zbngn841er",
+  "leftColumn": 57,
+  "minWidth": 50,
+  "mobileBottomRow": 41,
+  "mobileLeftColumn": 62,
+  "mobileRightColumn": 64,
+  "mobileTopRow": 37,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "onClick": "{{copyToClipboard(Input1.text);\nshowAlert('Copied', 'success');}}",
+  "originalBottomRow": 40,
+  "originalTopRow": 36,
+  "parentColumnSpace": 5.3955078125,
+  "parentId": "953y54ijag",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "searchTags": [
+    "click",
+    "submit"
+  ],
+  "tags": [
+    "Buttons"
+  ],
+  "thumbnailSVG": "/static/media/thumbnail.b02b764a52db45d332efa723178a50a4.svg",
+  "topRow": 38,
+  "type": "ICON_BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "5nhr328vg5",
+  "widgetName": "IconButton1"
 }
